@@ -1,10 +1,10 @@
 import React from "react";
-import Form from "./Form";
+import Practice from "./Practice"
 const App = () => {
 
   return (
     <div>
-      <Form/>
+      <Practice/>
     </div>
   )
 }
