@@ -1,0 +1,179 @@
+@media print {
+    body{
+        width:30cm ;
+    }
+    #submit{
+        visibility: hidden;
+    }
+}
+.top{
+    position: relative;
+    margin-top:1rem;
+    display: flex;
+
+}
+@media screen and (max-width:965px){ .iitklogo {
+    width: 130px;
+    max-height: 110px;
+    margin-left:0 !important;
+}.gymkhana{
+    width: 130px;
+    max-height: 110px;
+    margin-left:0 !important;
+    margin-top:.5rem
+}
+div.heading ,div.container-fluid{
+    padding:3px 0 0 0 !important;
+}
+div.top,div.mb-2{
+    margin-left:0 ;
+    padding:0
+}}
+@media screen and (max-width:1000px){
+.table1,.table2,.table3,.table4{
+    margin-left:2% !important;
+    margin-right:5% !important;
+   
+}
+.img_tag{
+    padding-left:1rem!important;
+}
+.table5{
+    margin-left:2% !important;
+    margin-right:5% !important;
+   
+}
+div.para,div#headline2_div{
+    padding-right:20% !important
+}
+label input{
+    width:100px
+}
+#submit{
+    left:40% !important
+}
+}
+.iitklogo{
+    position:relative;
+    margin-left:1rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+}
+.gymkhana{
+    position:relative;
+    width:100%;
+    margin-right: 0;
+    margin-top: .2rem;
+    border-radius: 70%;
+}
+.heading{
+    text-align: center;
+    padding-right:8rem;
+    padding-left:8rem;
+    border-radius: 20%;
+    background-color: rgba(243, 243, 243, 0.212);
+}
+.tick{
+    margin:1%;
+}
+.tick_text{
+    margin-left:1%;
+}
+td{
+    background-color:rgb(233, 232, 232);
+}
+.checkbox{
+    background-color:rgb(233, 232, 232);
+    border: 1px solid black;
+    position: relative;
+    padding-left:20px;
+    margin-left:5px;
+    font-size:large;
+}
+table,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight:380;
+  }
+.table1{
+    position: relative;
+   margin-top: 1rem;
+   margin-left: 25%;
+   border-collapse: collapse;
+}
+td{
+    padding:6px;
+    text-align: center;
+    
+}
+.table2{
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 27%;
+    border-collapse: collapse;
+    width:5rem
+}
+#total{
+    width: 8rem;
+}
+.size{
+    width: 156px;
+}
+.para h4 {
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 35%;
+    text-align: start;
+    margin-top: 1rem;
+}
+p {
+    margin-left: 20%;
+}
+.para p {
+    text-align: start;
+    margin-left:25%
+}
+div#headline{
+    text-align: start;
+    margin-left:25%
+
+}
+.table3{
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 23%;
+    margin-right:12%;
+}
+.table4{
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 25%;
+    border-collapse: collapse;
+}
+.table5{
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 39%;
+    margin-right:12%;
+    border-collapse: collapse;
+}
+#headline2{
+    position: relative;
+   margin-left: 35%;
+   margin-right:12%;
+    margin-top: 1rem;
+
+}
+#submit{
+   position: relative;
+   left:50%;
+    margin-top: 1rem;
+
+}
+input{
+    background-color:rgba(241, 241, 245, 0.836);
+    font-weight:500;
+    font-family: Georgia, serif;
+}
+/* rgba(240, 240, 243, 0.74); */
